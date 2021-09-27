@@ -1,0 +1,15 @@
+@import "variables";
+
+.breakbar {
+  height: 500px;
+}
+
+footer {
+  width: 100vw;
+  position: fixed;
+  margin-top: auto;
+  bottom: 0;
+  background-color: $dkgreen;
+  color: $gold;
+  align-items: center;
+}

@@ -1,0 +1,60 @@
+// @import 'header';
+// @import 'footer';
+
+// base
+$font-style: normal 18px sans-serif;
+$grey-color: rgb(0, 0, 0);
+$white-color: #10d45b;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font: $font-style;
+  color: $grey-color;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  img {
+    margin-top: 2em;
+  }
+}
+
+
+body {
+  main {
+    div {
+      div {
+        margin-top: 2em;
+        font-size: 2em;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        p {
+          width: 70vw;
+          margin: auto;
+          text-align: center;
+          margin-top: 2em;
+          a {
+            background-color:  #0F05A0;
+            color: #FFFFFF;
+            padding: 2rem;
+            border-radius: 2rem;
+            text-decoration: none;
+            font-size: 1em;
+            font-family: 'Courier New', Courier, monospace;
+            line-height: 4em;
+            &:hover {
+              color: yellow;
+              box-shadow: 1rem 1rem #444444;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    min-height: 10px;
+    display: block;
+}
+
+.split {
+    width: 100%;
+    flex-grow: 1;
+}
+
+.split-l {
+    background-color: lightblue;
+}
+
+.split-r {
+    background-color: lightgray;
+}
+
+
+
+p {
+    padding: 10px 0px;
+}

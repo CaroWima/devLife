@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Object</title>
+</head>
+
+<body id="body">
+    <h1>JavaScript Object</h1>
+    
+    <h3>Create a Object:</h3>
+    <code>
+        let x = {name:"Hans Muster", age:"50", city:"Zürich"};
+    </code>
+
+    <h3>Get a value out of an Object</h3>
+    <code>
+        console.log(x.name);  // Output is Hans Muster  <br>
+        console.log(x.age);   // Output is 50           <br>
+        console.log(x.city);  // Output is Zürich       <br>
+    </code>
+
+    <button onclick="clearScreen()">Clear Screen</button>
+
+</body>
+<script defer>
+    function clearScreen() {
+        document.getElementById('body').innerHTML = " ";
+    }
+    
+</script>
+</html>

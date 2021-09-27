@@ -1,0 +1,52 @@
+
+
+/*Back to top Button*/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 50px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: $dkgreen; 
+  color: $gold; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 17px; 
+  border-radius: 55%; /* Rounded corners */
+  box-shadow: 5px 5px 9px grey;
+  font-family: $techfont; 
+  font-size: 18px; /* Increase font size */
+  
+    &:hover {
+      background-color: #506a54; /* light green while hovering the mouse */
+    }
+  }
+ 
+
+
+  .article {
+    background-color: $gold;
+    min-height:150px;
+    min-width: 50px;
+    max-height: 500px;
+    border: 50px;
+
+  }
+
+  .code{ 
+    background-color: red !important; 
+    min-height:150px;
+    min-width: 50px;
+    max-height: max-content;
+    border: 50px;
+  }
+
+
+  .border border-success{
+    background-color: $gold;
+    height:150px;
+    width: 150px;
+  }
+
+  
