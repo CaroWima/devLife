@@ -1,1 +1,0 @@
-Hier ist der öffentliche Content und eine Formular um zugriff auf die Projekte zu erhalten
